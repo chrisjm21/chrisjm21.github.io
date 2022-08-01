@@ -5,7 +5,7 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-
+/** HEADER **/
 #header-nav {
     background-color: #f6b319;
     border-radius: 0;
@@ -47,18 +47,10 @@ body {
     clear: both;
     margin-top: -33px;
 }
-#bh1{
-    color:blue;
-    text-align:center;
-    font-weight:200px;
-    font-size:50px;
-    margin:auto;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 
 #nav-list li p {
-    background: #8e24aa;
+    background: #ffb981;
 }
 
 /* END HEADER */
@@ -91,7 +83,7 @@ body {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
     /* Header */
-    .navbar-brand {
+    .navbar-brand { 
         padding-top: 10px;
     }
     .navbar-brand h1 { /* Restaurant name */
@@ -112,3 +104,5 @@ body {
     .menu-item-description {
         text-align: center;;
     }
+
+}
