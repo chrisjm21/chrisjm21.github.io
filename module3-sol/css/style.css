@@ -1,10 +1,68 @@
-.row{
-  margin-bottom: 15px;
-  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.row > div {
-  border:5px solid red;
+.navbar {
+    background-color: grey;
+    height: 40px;
+    padding-left: 4%;
+    border: 2px solid black;
 }
-/*.col-md-4{
-  height: 50px;
-}*/
+.navbarHeader button.navbar-toggle, .navbarHeader .icon-bar {
+    border: 1px solid black;
+}
+.Food {
+    font-size: 180%;
+    font-weight: 900;
+}
+.Menu {
+    text-align: center;
+    margin: 40px;
+}
+.bigBox {
+    margin: 20px 40px;
+}
+.chicken, .beef, .sushi {
+    text-align: center;
+    padding-top: 5px;
+}
+p {
+    clear: both;
+    padding: 10px;
+}
+.box1, .box2, .box3 {
+    border: 2px solid black;
+    background-color: grey;
+    margin-bottom: 20px;
+    font-family: Arial;
+}
+.dropDown {
+    color: black;
+    text-align: center;
+    font-size: larger;
+}
+.backToTop {
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+/* #######For Larger Screens########## */
+
+@media (min-width: 992px) {
+    .bigBox {
+      display:block;
+      margin: 0% 4%;
+      justify-content: space-between;
+     }
+  }
+
+/* #######For Small Screens########## */
+
+@media (min-width:768px) {
+    #nav-list {
+        display: none;
+    }
+}
