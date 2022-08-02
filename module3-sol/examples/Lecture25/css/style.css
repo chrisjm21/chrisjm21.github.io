@@ -2,12 +2,12 @@ body{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     color: #333;
-    background-color: azure;
+    background-color: lightblue;
 }
 
 /** HEADER **/
 #header-nav{
-    background-color: aquamarine;
+    background-color: darkblue;
 }
 
 #brand{
@@ -28,14 +28,12 @@ button.navbar-toggler{
     margin: auto;
 }
 
-/** MENU **/
 
 #home {
 	margin: 25px 0 25px 0;
 }
 
 .row .menu-item {
-    background-color: rgba(0, 255, 255, 0.1);
 	margin-bottom: 15px;
 	padding: 15px;
 }
@@ -49,32 +47,27 @@ button.navbar-toggler{
     color: #269279;
 }
 
-/* SUPER Small devices (>576px)*/
+
 @media (max-width: 576px) {
 
 }
 
-/* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
 }
 
-/* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     
 }
 
-/* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     
 }
 
-/* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     
 }
 
-/* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
 
 }
