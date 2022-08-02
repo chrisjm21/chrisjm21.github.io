@@ -1,108 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment Solution for Module 3</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Chu's China Bistro</title>
+     <link rel="stylesheet" href="style.css">
+    <style>
+         *{
+        padding: 0;
+        margin: 0;
+     
+    } 
+    body{
+        background-color:#f9fff0;
+    }
+.navbar{
+    border: 2px solid black;
+    font-size: 40px;
+    position: sticky;
+    background-color: darkblue;
+    cursor: pointer;
+    }
+.text-center{
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+}
+.box1{
+    margin: 12px;
+    padding: 2px;
+    width: 320px;
+    height: auto;
+    display: inline-block;
+    background-color: darkblue;
+}
+.box2{
+    margin: 12px;
+    padding: 2px;
+    width: 320px;
+    height: auto;
+    display: inline-block;
+    background-color: darkblue;
+}
+.box3{
+    margin: 12px;
+    padding: 2px;
+    width: 320px;
+    height: auto;
+    display: inline-block;
+    background-color: darkblue;
+}
+.box1 p{
+    font-style: italic;
+    color: red;
+}
+.box2 p{
+    font-style: italic;
+    color: red;
+}
+.box3 p{
+    font-style:italic;
+    color: red;
+}
+.box1 .item-name{
+    font-weight:bold ;
+    text-align: center;
+}
+.box2 .item-name{
+    font-weight: bold;
+    text-align: center;
+}
+.box3 .item-name{
+    font-weight:bold;
+    text-align: center;
+}
+.container2{
+    text-align: center;
+    /* padding-left: 210px; */
+    /* padding-top: 20px; */
+}
+    </style>
 </head>
-
-
 <body>
-    <header>
-        <nav id="header-nav" class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <div class="navbar-brand">
-                        <a href="index.html"><h1>Food, LLC</h1></a>
-                    </div>
-
-                    <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <div id="collapsable-nav" class="collapse navbar-collapse">
-                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
-                        <li>
-                            <a href="#chicken-tile"><br class="hidden-xs"> Chicken</a>
-                        </li>
-                        <li>
-                            <a href="#beef-tile"><br class="hidden-xs"> Beef</a>
-                        </li>
-                        <li>
-                            <a href="#sushi-tile"><br class="hidden-xs"> Sushi</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <div id="main-content" class="container">
-        <h2 id="top-heading" class="text-center">Our Menu</h2>
-        <div id="home-tiles" class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div id="chicken-tile">
-                    <section>
-                        <h3 class="text-center">Chicken</h3>
-                        <p>
-                            All I can say about this Malaysian Fried Chicken is that it’s lip-smacking, finger-licking good! It is served in all ‘mamak’ stalls in Malaysia, which are open until the wee hours of the morning – perfect for a late supper after a big night out at a club. It’s great as an appetiser, but it’s most often served with coconut rice, or as part of nasi lemak All I can say about this Malaysian Fried Chicken is that it’s lip-smacking, finger-licking good! It is served in all ‘mamak’ stalls in Malaysia, which are open until the wee hours of the morning – perfect for a late supper after a big night out at a club. It’s great as an appetiser, but it’s most often served with coconut rice, or as part of nasi lemak.All I can say about this Malaysian Fried Chicken is that it’s lip-smacking, finger-licking good! It is served in all ‘mamak’ stalls in Malaysia, which are open until the wee hours of the morning – perfect for a late supper after a big night out at a club. It’s great as an appetiser, but it’s most often served with coconut rice, or as part of nasi lemak All I can say about this Malaysian Fried Chicken is that it’s lip-smacking, finger-licking good! It is served in all ‘mamak’ stalls in Malaysia, which are open until the wee hours of the morning – perfect for a late supper after a big night out at a club. It’s great as an appetiser, but it’s most often served with coconut rice, or as part of nasi lemak.All I can say about this Malaysian Fried Chicken is that it’s lip-smacking, finger-licking good! It is served in all ‘mamak’ stalls in Malaysia, which are open until the wee hours of the morning – perfect for a late supper after a big night out at a club. It’s great as an appetiser, but it’s most often served with coconut rice, or as part of nasi lemak All I can say about this Malaysian Fried Chicken is that it’s lip-smacking, finger-licking good! It is served in all ‘mamak’ stalls in Malaysia, which are open until the wee hours of the morning – perfect for a late supper after a big night out at a club. It’s great.
-                        </p>
-                        <p>
-                            (End of Chicken section) <a href="#top-heading">Back to Top</a>
-                        </p>
-                    </section>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div id="beef-tile">
-                    <section>
-                        <h3 class="text-center">Beef</h3>
-                        <p>
-                            Mongolian Beef is a recipe that I’ve been cooking for clients for many years for a number of reasons. One, people love anything that tastes like Chinese takeout. Two, the sweet flavor of the dark brown sugar mixed with the salty soy sauce and the strong ginger and garlic is incredibly addicting and three you get to enjoy it over a mountain of steamed rice Mongolian Beef is a recipe that I’ve been cooking for clients for many years for a number of reasons. One, people love anything that tastes like Chinese takeout. Two, the sweet flavor of the dark brown sugar mixed with the salty soy sauce and the strong ginger and garlic is incredibly addicting and three you get to enjoy it over a mountain of steamed rice.Mongolian Beef is a recipe that I’ve been cooking for clients for many years for a number of reasons. One, people love anything that tastes like Chinese takeout. Two, the sweet flavor of the dark brown sugar mixed with the salty soy sauce and the strong ginger and garlic is incredibly addicting and three you get to enjoy it over a mountain of steamed rice Mongolian Beef is a recipe that I’ve been cooking for clients for many years for a number of reasons. One, people love anything that tastes like Chinese takeout. Two, the sweet flavor of the dark brown sugar mixed with the salty soy sauce and the strong ginger and garlic is incredibly addicting and three you get to enjoy it over a mountain of steamed rice.Mongolian Beef is a recipe that I’ve been cooking for clients for many years for a number of reasons. One, people love anything that tastes like Chinese takeout. Two, the sweet flavor of the dark brown sugar mixed with the salty soy sauce and the strong ginger and garlic is incredibly addicting and three you get to enjoy it over a mountain of steamed rice Mongolian Beef is a recipe that I’ve been cooking for clients for many years for a number of reasons. One, people love anything that tastes like Chinese takeout. Two, the sweet flavor of the dark brown sugar mixed with the salty soy sauce and the strong ginger and garlic is incredibly.
-                        </p>
-                        <p>
-                            (End of Beef section) <a href="#top-heading">Back to Top</a>
-                        </p>
-                    </section>
-                </div>
-            </div>
-          
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <div id="sushi-tile">
-                    <section>
-                        <h3 class="text-center">Sushi</h3>
-                        <p>
-                              Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits. Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice such as squid, eel, yellowtail, salmon, tuna or imitation Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits. Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice such as squid, eel, yellowtail, salmon, tuna.  Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits. Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice such as squid, eel, yellowtail, salmon, tuna or imitation Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits. Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice such as squid, eel, yellowtail, salmon, tuna.   Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits. Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice such as squid, eel, yellowtail, salmon, tuna or imitation Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits. Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice such.
-                </p>
-                </p>
-                </p>
-                        </p>
-                        <p>
-                            (End of Sushi section) <a href="#top-heading">Back to Top</a>
-                        </p>
-                    </section>
-                </div>
-            </div>
-          
+<nav class="navbar navbar-default navbar-fixed-top" id="top">
+<div class="container1">
+    Food,LLC
+</div>    
+</nav>
+<br>
+<div>
+<h1>
+     <p class="text-center">Our Menu</p>
+</h1>
+</div>
+<div class="container2">
+        <div class="box1">
+          <p class="item-name">Chicken</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis iste veniam aperiam exercitationem. Porro blanditiis quasi, unde, delectus saepe quo magnam voluptas, iste enim repudiandae aliquam fugit? Unde, delectus tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, neque optio? Voluptates placeat facilis laborum quis ad illum deleniti suscipit, veritatis aspernatur rem voluptatibus. Tenetur nisi consequuntur hic unde nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem est ex id. Aspernatur cupiditate qui porro reprehenderit fuga quaerat sed mollitia expedita cumque! Iusto asperiores itaque ducimus consequuntur velit atque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid nostrum, id repellendus, odio, architecto tenetur ratione labore dolorum qui voluptate eos. Blanditiis vero libero, cum reprehenderit asperiores impedit dolores consectetur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deleniti maiores quibusdam? Quod recusandae adipisci saepe maiores dolores suscipit dolorum, praesentium natus optio distinctio libero ut quae corrupti! Corporis, quas? Lorem ipsum dolor sit. Lorem ipsum dolor sit.
+              <a href="#top">(Back to top)</a></p>
         </div>
-    </div>
-    <div class="clearfix visible-lg-block"></div>
-
-
-
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
+      
+    
+        <div class="box2">
+          <p class="item-name">Beef</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur saepe, enim iste error ipsam architecto quam totam incidunt voluptatibus similique ipsum esse odio porro qui vero officia hic aperiam nemo?
+            Laudantium, facere, quibusdam assumenda, mollitia quos sunt consequuntur aperiam voluptas beatae accusamus corrupti. Rerum dolorum sint ipsam consequuntur quia aliquam ad, dolor quaerat ipsa cum voluptas porro officiis voluptatem maxime!
+            Cupiditate tempora ullam repudiandae esse sed itaque ab totam autem ipsam reprehenderit repellat, delectus aliquid mollitia quidem placeat commodi excepturi odio cum quae quas fuga reiciendis omnis? Ipsa, corporis vero!
+            Sunt atque veritatis doloribus eum reiciendis sequi beatae dicta optio non dolores quia, consectetur alias. Odit, atque officia id eveniet corporis maiores exercitationem, magnam nostrum impedit commodi consequuntur est cum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi rerum, velit molestiae earum tenetur odio ratione, aliquam vel fugit exercitationem, neque quis ea repellendus pariatur? Aspernatur assumenda excepturi cumque commodi! Adipisci deleniti maiores quibusdam?
+              <a href="#top">(Back to Top)</a></p>
+        </div>
+     
+        <div class="box3">
+          <p class="item-name">Sushi</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima libero sed harum earum numquam! Asperiores nobis voluptates repellat iste consectetur, nulla consequatur molestiae earum delectus placeat nemo quos, vitae officia.
+            Quasi excepturi fugit mollitia rem. Quas distinctio reiciendis delectus! Accusamus itaque quisquam quaerat quis optio sunt ducimus incidunt, totam, et, provident nihil? Necessitatibus quia molestias aliquid assumenda, maxime laudantium vitae.
+            Eaque quos ad nulla voluptas delectus adipisci accusantium, mollitia aspernatur similique magnam beatae neque vel rem debitis dolores, saepe distinctio. Voluptatum quaerat minima quas ex, consequuntur rerum distinctio repellat aut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni possimus eveniet non et ea autem ipsa ex praesentium? Atque debitis eos odio quod quidem saepe obcaecati labore voluptas animi in.
+            Enim sint sunt architecto reiciendis! Ad mollitia molestiae minus illum quis! Quisquam ut provident sed cumque adipisci dicta amet facilis explicabo odit? Possimus quae corporis ducimus fugit officia ex eveniet. Lorem ipsum dolor sit. ea repellendus pariatur? Aspernatur assumenda excepturi cumque commodi!
+              <a href="#top">(Back to Top)</a></p>
+        </div>
+      </div>    
 </body>
-
 </html>
