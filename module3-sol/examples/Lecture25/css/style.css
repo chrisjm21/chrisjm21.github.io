@@ -1,101 +1,100 @@
+
+
 body {
     font-size: 16px;
-    color: #000;
-    font-family: 'Kalam', sans-serif;
-}
-#header-nav {
-    background-color: #999999;
-    border-radius: 0;
-    border: solid 5px;
-}
-.navbar-nav>li>a {
-  border-bottom: solid 3px;
-}
-.chicken-solo-adjust {
-  border-top: solid 3px
-}
-.navbar-brand {
-    padding-top: 25px;
-}
-.navbar-brand h1 { /* Company Name */
-    font-family: 'Questrial', sans-serif;
-    color: #000;
-    font-size: 1.6em;
-    letter-spacing: 1.5px;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: -9px;
-    margin-bottom: 0;
-    line-height: .75;
-}
-.navbar-collapse {
-  border-top: solid 0px;
-  margin-bottom: -10px;
-  padding-top: -10gipx;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+    background-color: #cce6ff;
 }
 
-/* Position fix for menu button */
-/* button.navbar-toggle.collapsed {
-    margin-top: 0px;
-/* } */ /* Another selector already exist */
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #00004d;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:  #b3b3ff;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color:  #ccccff;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    
+}
 
 #nav-list {
-    margin-top: 10px;
-    font-weight: 500;
-    background-color: #fff;
-  }
-  #nav-list a {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-weight: 600;
-    letter-spacing: 1px;
-  }
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #000;
-  }
-   /* From Bootstrp- override focus and hover bgcolor */
-  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #E7E7E7;
-    border: solid 1px #000;
-    box-shadow: 0px 0px 1px #000;
+    background-color:  #9999ff;
 }
 
-  .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -41px;
-  }
-  
-/* end of navbar styles. main content styles starting. */
-#menu-header {
-  font-family: 'Questrial', sans-serif;
-  font-size: 1.9em;
-  font-weight: bolder;
-  margin-top: 5px;
-  margin-bottom: 25px;
+#nav-list a {
+    
+    font-weight: bolder;
+    color:  #00004d;
+    font-size: 1.2em;
 }
-.menu-grid {
-  /* background-color: #ffbebe; */
-  background-color: #999999;
-  margin-bottom: 20px;
+
+#nav-list a:hover {
+    color:  #8080ff;
+    background-color:  #ccccff;
 }
-.chicken, .beef, .sushi {
-  padding: 10px 20px 5px 20px;
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid  #ccccff;
 }
-/* .menu-grid.chicken {
-  background-color: #ffbebe;
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
 }
-.menu-grid.beef {
-    background-color: #beffcd;
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #000066;
 }
-.menu-grid.sushi {
-    background-color: #befbff;
-} */
-#menu-title {
-  font-weight: bold;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #000066;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #99ceff;
+    margin-bottom: 60px;
 }
