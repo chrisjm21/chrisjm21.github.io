@@ -1,129 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-     <title> David Chu's China Bistro </title>
-     <link rel="stylesheet" href="style.css">
-    <style>
-         *{
-        padding: 0;
-        margin: 0;
-     
-    } 
-    body{
-        background-color:#f9fff0;
-    }
-.navbar{
-    border: 2px solid black;
-    font-size: 40px;
-    position: sticky;
-    background-color: darkblue;
-    cursor: pointer;
-    }
-.text-center{
-    text-align: center;
-    font-size: 30px;
-    color: orange;
-}
-.box1{
-    margin: 12px;
-    padding: 2px;
-    width: 320px;
-    height: auto;
-    display: inline-block;
-    background-color: green;
-}
-.box2{
-    margin: 12px;
-    padding: 2px;
-    width: 320px;
-    height: auto;
-    display: inline-block;
-    background-color: green;
-}
-.box3{
-    margin: 12px;
-    padding: 2px;
-    width: 320px;
-    height: auto;
-    display: inline-block;
-    background-color: green;
-}
-.box1 p{
-    font-style: italic;
-    color: lightblue;
-}
-.box2 p{
-    font-style: italic;
-    color: lightblue;
-}
-.box3 p{
-    font-style:italic;
-     color: lightblue;
-}
-.box1 .item-name{
-    font-weight:bold ;
-    text-align: center;
-    color: red;
-}
-.box2 .item-name{
-    font-weight: bold;
-    text-align: center;
-     color: red;
-}
-.box3 .item-name{
-    font-weight:bold;
-    text-align: center;
-     color: red;
-}
-.container1{
-    color: pink;
-        }
-.container2{
-    text-align: center;
-    /* padding-left: 210px; */
-    /* padding-top: 20px; */
-}
-    </style>
-  
-    
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" id="top">
-<div class="container1">
-    Food,LLC
-</div>    
-</nav>
-<br>
-<div>
-<h1>
-     <p class="text-center">Our Menu</p>
-</h1>
-</div>
-<div class="container2">
-        <div class="box1">
-          <p class="item-name">Chicken</p>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis iste veniam aperiam exercitationem. Porro blanditiis quasi, unde, delectus saepe quo magnam voluptas, iste enim repudiandae aliquam fugit? Unde, delectus tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, neque optio? Voluptates placeat facilis laborum quis ad illum deleniti suscipit, veritatis aspernatur rem voluptatibus. Tenetur nisi consequuntur hic unde nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem est ex id. Aspernatur cupiditate qui porro reprehenderit fuga quaerat sed mollitia expedita cumque! Iusto asperiores itaque ducimus consequuntur velit atque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid nostrum, id repellendus, odio, architecto tenetur ratione labore dolorum qui voluptate eos. Blanditiis vero libero, cum reprehenderit asperiores impedit dolores consectetur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deleniti maiores quibusdam? Quod recusandae adipisci saepe maiores dolores suscipit dolorum, praesentium natus optio distinctio libero ut quae corrupti! Corporis, quas? Lorem ipsum dolor sit. Lorem ipsum dolor sit.
-              <a href="#top">(Back to top)</a></p>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
         </div>
-      
-    
-        <div class="box2">
-          <p class="item-name">Beef</p>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur saepe, enim iste error ipsam architecto quam totam incidunt voluptatibus similique ipsum esse odio porro qui vero officia hic aperiam nemo?
-            Laudantium, facere, quibusdam assumenda, mollitia quos sunt consequuntur aperiam voluptas beatae accusamus corrupti. Rerum dolorum sint ipsam consequuntur quia aliquam ad, dolor quaerat ipsa cum voluptas porro officiis voluptatem maxime!
-            Cupiditate tempora ullam repudiandae esse sed itaque ab totam autem ipsam reprehenderit repellat, delectus aliquid mollitia quidem placeat commodi excepturi odio cum quae quas fuga reiciendis omnis? Ipsa, corporis vero!
-            Sunt atque veritatis doloribus eum reiciendis sequi beatae dicta optio non dolores quia, consectetur alias. Odit, atque officia id eveniet corporis maiores exercitationem, magnam nostrum impedit commodi consequuntur est cum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi rerum, velit molestiae earum tenetur odio ratione, aliquam vel fugit exercitationem, neque quis ea repellendus pariatur? Aspernatur assumenda excepturi cumque commodi! Adipisci deleniti maiores quibusdam?
-              <a href="#top">(Back to Top)</a></p>
-        </div>
-     
-        <div class="box3">
-          <p class="item-name">Sushi</p>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima libero sed harum earum numquam! Asperiores nobis voluptates repellat iste consectetur, nulla consequatur molestiae earum delectus placeat nemo quos, vitae officia.
-            Quasi excepturi fugit mollitia rem. Quas distinctio reiciendis delectus! Accusamus itaque quisquam quaerat quis optio sunt ducimus incidunt, totam, et, provident nihil? Necessitatibus quia molestias aliquid assumenda, maxime laudantium vitae.
-            Eaque quos ad nulla voluptas delectus adipisci accusantium, mollitia aspernatur similique magnam beatae neque vel rem debitis dolores, saepe distinctio. Voluptatum quaerat minima quas ex, consequuntur rerum distinctio repellat aut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni possimus eveniet non et ea autem ipsa ex praesentium? Atque debitis eos odio quod quidem saepe obcaecati labore voluptas animi in.
-            Enim sint sunt architecto reiciendis! Ad mollitia molestiae minus illum quis! Quisquam ut provident sed cumque adipisci dicta amet facilis explicabo odit? Possimus quae corporis ducimus fugit officia ex eveniet. Lorem ipsum dolor sit. ea repellendus pariatur? Aspernatur assumenda excepturi cumque commodi!
-              <a href="#top">(Back to Top)</a></p>
-        </div>
-      </div>    
+      </div>
+    </nav>
+
+  </header>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You have no unread notifications
